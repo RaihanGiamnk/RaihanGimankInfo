@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaihanGimank | Next-Gen Content Creator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Holographic Header -->
+    <header class="animate__animated animate__fadeInDown">
+        <div class="logo">
+            <img src="LOGO.jpg" alt="RaihanGimank" class="logo-img">
+            <div class="logo-text">
+                <h1>RaihanGimank</h1>
+                <p>Content Creator</p>
+            </div>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#videos" class="nav-link"><i class="fas fa-play-circle"></i> Videos</a></li>
+                <li><a href="#gallery" class="nav-link"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 3D Hero Section -->
+    <section id="home" class="hero">
+        <div class="bg-elements" id="particles-js"></div>
+        
+        <div class="hero-content animate__animated animate__fadeIn">
+            <div class="hero-text">
+                <h2>Digital Content Creator</h2>
+                <h1>Crafting Immersive Digital Experiences</h1>
+                <p>Specializing in cutting-edge video production, digital art, and engaging content that pushes creative boundaries and captivates audiences worldwide.</p>
+                
+                <div class="hero-btns">
+                    <a href="#videos" class="btn btn-primary">
+                        <i class="fas fa-play"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-handshake"></i> Collaborate
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" id="subscriberCount">12.5K</div>
+                        <div class="stat-label">Subscribers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="videoCount">86</div>
+                        <div class="stat-label">Videos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="viewCount">3.25M</div>
+                        <div class="stat-label">Total Views</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-avatar">
+                <img src="profile.jpg" alt="RaihanGimank" class="avatar-img">
+                <div class="avatar-frame"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work Section -->
+    <section id="videos" class="featured-work">
+        <h2 class="section-title">Featured Content</h2>
+        
+        <div class="work-grid">
+            <div class="work-card">
+                <div class="work-thumbnail">
+                    <img src="video1-thumb.jpg" alt="Tech Review">
+                    <div class="play-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <h3>Tech Gadget Review 2023</h3>
+                    <div class="work-meta">
+                        <span><i class="fas fa-eye"></i> 250K views</span>
+                        <span><i class="fas fa-calendar-alt"></i> 2 weeks ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Social Media Buttons -->
+    <div class="social-floating">
+        <a href="https://instagram.com/raihanmubarok086" target="_blank" class="social-btn instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://tiktok.com/@raihangimank12" target="_blank" class="social-btn tiktok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://facebook.com/RaihanGimank" target="_blank" class="social-btn facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://youtube.com/@RaihanGimank" target="_blank" class="social-btn youtube">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
